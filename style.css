@@ -1,0 +1,586 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  font-family: "Heebo", sans-serif;
+  background-color: #131619;
+}
+
+/* img {
+  width: 100%;
+  height: 100%;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ========== HEADER SECTION ============= */
+nav {
+  background-color: black;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 15rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.nav-bar2 ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar3 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-button button {
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+  background-color: white;
+}
+
+.nav-icon button {
+  border: none;
+  background-color: transparent;
+}
+
+/* ----- HERO SECTION ----- */
+.hero-con {
+  background-color: #131619;
+  width: 100%;
+  padding: 15rem 0 1rem 0;
+}
+
+.hero-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-flex1 img {
+  width: 194px;
+  height: 194px;
+}
+
+.hero-flex {
+  display: flex;
+  gap: 2rem;
+  align-items: end;
+  padding: 1.5rem 0;
+}
+
+.hero-text h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 300px;
+  width: 100%;
+  line-height: 0.8;
+}
+
+.hero-dots {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 2rem 0;
+}
+
+.dot,
+.dot1 {
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.dot1 {
+  background-color: white;
+}
+
+/* ========== END OF HEADER SECTION =========== */
+
+/* ========== BODY SECTION ============= */
+.strong-section {
+  max-width: 100%;
+  background-color: black;
+}
+
+.strong-con {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.strong-text {
+  position: relative;
+}
+
+.strong-stroke {
+  position: absolute;
+  top: -2rem;
+  left: -3rem;
+}
+
+.strong-stroke p {
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 112px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #404040;
+  color: black;
+}
+
+.strong-title1,
+.strong-title2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.strong-text-icon {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.strong-text3 {
+  font-size: 16px;
+  width: 400px;
+  padding: 1rem 0;
+}
+
+.strong-image img {
+  width: 518px;
+  height: 760px;
+  object-fit: cover;
+}
+
+.button-con {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 1rem 0;
+}
+
+.button-text {
+  padding: 0 2rem;
+}
+
+.button-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+/* Start Section */
+.start-section {
+  max-width: 100%;
+}
+
+.start-con {
+  height: 750px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+}
+
+.start-image img {
+  width: 518px;
+  height: 760px;
+  object-fit: cover;
+}
+
+.start-content {
+  position: relative;
+}
+
+.strong-stroke2 {
+  position: absolute;
+  top: -2rem;
+  right: 8rem;
+}
+
+.strong-stroke2 p {
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 112px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #404040;
+  color: black;
+}
+
+/* -------- Fitness Icons Section -------*/
+
+.fit-con {
+  background-color: black;
+  height: 494px;
+  width: 100%;
+  padding: 13rem 0 5rem 0;
+}
+
+.fit-grid {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-items: center;
+  gap: 2rem;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.fit-text {
+  text-align: center;
+}
+
+.fit-flex {
+  display: flex;
+}
+
+.fit-absolute {
+  position: relative;
+}
+
+.fit-arrow {
+  position: absolute;
+  top: -5rem;
+  left: 1rem;
+}
+
+/* -------- End of Fitness Icons Section ------*/
+
+/* -------- Join us Section ------*/
+.join-con {
+  background-image: url(/images/fit-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+  width: 100%;
+  position: relative;
+}
+
+.join-image img {
+  position: absolute;
+  width: 50%;
+  top: 12rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.circle-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5rem;
+  top: 22rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.circle-flex p {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* -------- End of Join Us Section ------*/
+
+/* -------- Form Section ------*/
+.form-con {
+  position: relative;
+  width: 100%;
+  padding: 10rem 0;
+}
+
+.form-section {
+  position: relative;
+  background-color: aqua;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.join-us-text {
+  position: absolute;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  top: -7rem;
+  transform: translate(42%);
+}
+
+.join-us-text p {
+  font-size: 180px;
+  font-weight: 700;
+}
+
+/* -------- End of Form Section ------*/
+
+/* ========== END OF BODY SECTION ============= */
+
+ {
+}
+ {
+}
+ {
+}
+ {
+}
+ {
+}
+ {
+}
+ {
+}
+ {
+}
+
+@media screen and (max-width: 1200px) {
+  /* Header Section */
+  .nav-bar {
+    display: flex;
+    gap: 10rem;
+  }
+
+  .hero-text h1 {
+    font-size: 230px;
+  }
+  /* End of Header Section */
+
+  /* Body Section */
+  .strong-section {
+    max-width: 100%;
+    background-color: black;
+  }
+
+  .strong-con {
+    width: 90%;
+    display: flex;
+    gap: 9rem;
+  }
+
+  .start-con {
+    width: 98%;
+    display: flex;
+    gap: 9rem;
+  }
+
+  /* Fit Section */
+  .fit-grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 1rem;
+  }
+
+  .fit-arrow {
+    position: absolute;
+    top: -5rem;
+    left: -2rem;
+  }
+
+  .fit-arrow img {
+    width: 70px;
+    height: 70px;
+  }
+  /* End of Fit section */
+}
+
+@media screen and (max-width: 1030px) {
+  /* Header */
+  .nav-bar {
+    gap: 5rem;
+    width: 95%;
+  }
+
+  .nav-bar2 ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 180px;
+  }
+  /* End of Header Section */
+
+  /* Body Section */
+  .strong-con {
+    width: 90%;
+    height: 500px;
+    gap: 7rem;
+  }
+
+  .strong-stroke p {
+    font-size: 90px;
+  }
+
+  .strong-title1,
+  .strong-title2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .strong-image img {
+    width: 350px;
+    height: 600px;
+  }
+
+  .start-con {
+    height: 550px;
+    width: 95%;
+    gap: 10rem;
+  }
+
+  .start-image img {
+    width: 350px;
+    height: 600px;
+  }
+
+  /* End of Start Section */
+
+  /* Fit Section */
+  .fit-arrow img {
+    width: 50px;
+    height: 50px;
+  }
+  /* End of Fit section */
+}
+
+@media screen and (max-width: 768px) {
+  /* Header */
+  .nav-bar {
+    display: flex;
+    gap: 3rem;
+    width: 98%;
+  }
+
+  .nav-bar2 ul {
+    display: none;
+    gap: 1rem;
+  }
+
+  .nav-bar3 {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 150px;
+  }
+
+  .hero-dots {
+    display: flex;
+    margin: 2rem 0 1rem 0;
+  }
+  /* End of Header */
+
+  /* Strong Section */
+
+  .strong-con {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    height: 450px;
+  }
+
+  .strong-text {
+    position: relative;
+    padding: 4rem 0 0 0;
+  }
+
+  .strong-stroke {
+    position: absolute;
+    top: 2rem;
+    left: -2rem;
+  }
+
+  .strong-image img {
+    width: 218px;
+    height: 420px;
+    object-fit: fill;
+  }
+
+  /* End of Start Section */
+
+  /* Strong Section */
+  .start-con {
+    height: 450px;
+    width: 99%;
+    display: flex;
+    gap: 4rem;
+  }
+
+  .start-image img {
+    width: 238px;
+    height: 420px;
+    object-fit: fill;
+  }
+
+  .start-content {
+    position: relative;
+  }
+
+  .strong-stroke2 {
+    position: absolute;
+    top: -2rem;
+    right: 8rem;
+  }
+  /* End of Start Section */
+
+  /* Fit Section */
+  .fit-con {
+    background-color: black;
+    height: 694px;
+    width: 100%;
+    padding: 10rem 0 5rem 0;
+  }
+
+  .fit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 10rem 1rem;
+    width: 98%;
+    margin: 0 auto;
+  }
+  /* End of Fit Secton */
+}
+
+@media screen and (max-width: 600px) {
+}

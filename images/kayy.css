@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #131619;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+ul {
+  display: flex;
+  gap: 4rem;
+}
+
+.links ul li a {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+}
+
+nav .buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+nav .buttons button:nth-child(1) {
+  background-color: white;
+  border-radius: 4rem;
+  padding: 7px 26px;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+}
+
+nav .buttons button:nth-child(2) {
+  border: none;
+  background-color: transparent;
+}
+
+.hero-container {
+  padding: 5rem;
+}
+
+.hero-txt1 {
+  display: flex;
+  align-items: flex-end;
+  font-size: 30px;
+  font-weight: 700;
+  gap: 2rem;
+}
+
+.hero-txt1-text {
+  color: white;
+}
+
+.hero-txt2 h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 360px;
+  width: 100%;
+}
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  border: 1px white solid;
+}
+.dot3 {
+  background-color: white;
+}
+
+.main-container {
+  background-color: #000000;
+  height: 637.16px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.main-text {
+  position: relative;
+}
+
+.m-t-1 {
+  position: absolute;
+  top: -2rem;
+  left: -3rem;
+}
+
+.m-t-1 p {
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 112px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #404040;
+  color: black;
+}
+
+.m-t-2 {
+  display: flex;
+  position: relative;
+}
+
+.text p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  width: 481.42px;
+  height: 111px;
+}
+
+.m-t-3 p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  width: 400.43px;
+  height: 52px;
+  top: 295.08px;
+  left: 35px;
+}
+
+.m-t-4 button {
+  background-color: transparent;
+  display: flex;
+  border: 1px white solid;
+  border-radius: 40px;
+  align-items: center;
+  width: fit-content;
+}
+
+.m-t-4 button p {
+  color: white;
+  padding: 0 28px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.icon2 {
+  border: 1px white solid;
+  height: 54px;
+  width: 54px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container2 {
+  height: 637.16px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.main-text2 {
+  position: relative;
+}
+
+.m-t-11 {
+  position: absolute;
+  top: -2rem;
+  left: -3rem;
+}
+
+.m-t-11 p {
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 112px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #404040;
+  color: #131619;
+}
+
+.m-t-22 {
+  display: flex;
+  position: relative;
+}
+
+.text1 p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  width: 481.42px;
+  height: 111px;
+}
+
+.m-t-33 p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  width: 400.43px;
+  height: 52px;
+  top: 295.08px;
+  left: 35px;
+}
+
+.m-t-44 button {
+  background-color: transparent;
+  display: flex;
+  border: 1px white solid;
+  border-radius: 40px;
+  align-items: center;
+  width: fit-content;
+}
+
+.m-t-44 button p {
+  color: white;
+  padding: 0 28px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.icon2 {
+  border: 1px white solid;
+  height: 54px;
+  width: 54px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-text {
+  background-color: blue;
+  width: fit-content;
+  border: 1px blue solid;
+}
+.grid-text:hover {
+  background-color: black;
+}
+.grid-text,
+.grid-text a {
+  color: white;
+}
+.grid-text:hover,
+.grid-text a:hover {
+  color: yellow;
+}
+
+.grid-img {
+  overflow: hidden;
+}
+.grid-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s all ease-in-out;
+}
+.grid-img img:hover {
+  transform: scale(1.5);
+  transition: 1s all ease-in-out;
+}
